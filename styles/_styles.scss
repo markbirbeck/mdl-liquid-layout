@@ -18,7 +18,7 @@ body::before {
   font-family: 'Roboto', 'Helvetica', sans-serif;
 }
 
-.demo-blog .demo-blog__posts {
+.demo-blog article[type~=BlogPosting] {
   max-width: 900px;
   padding: 0;
   display: flex;
@@ -105,10 +105,10 @@ body::before {
   display: flex;
   flex-direction: column;
 }
-.demo-blog.is-small-screen .demo-blog__posts > .mdl-card.coffee-pic {
+.demo-blog.is-small-screen article[type~=BlogPosting] > .mdl-card.coffee-pic {
   order: 0;
 }
-.demo-blog.is-small-screen .demo-blog__posts > .mdl-card.something-else {
+.demo-blog.is-small-screen article[type~=BlogPosting] > .mdl-card.something-else {
   order: -1;
 }
 .demo-blog .coffee-pic .mdl-card__media {
@@ -148,7 +148,7 @@ body::before {
 .demo-blog .shopping .mdl-card__media {
   background-image: url('../images/shopping.jpg');
 }
-.demo-blog .demo-blog__posts > .demo-nav {
+.demo-blog article[type~=BlogPosting] > .demo-nav {
   margin: 12px 15px;
   display: flex;
   flex-direction: row;
@@ -157,18 +157,18 @@ body::before {
   color: white;
   font-weight: 500;
 }
-.demo-blog .demo-blog__posts > .demo-nav > .demo-nav__button {
+.demo-blog article[type~=BlogPosting] > .demo-nav > .demo-nav__button {
   color: white;
   text-decoration: none;
 }
-.demo-blog .demo-blog__posts > .demo-nav .mdl-button {
+.demo-blog article[type~=BlogPosting] > .demo-nav .mdl-button {
   color: rgba(0,0,0,0.54);
   background-color: white;
 }
-.demo-blog .demo-blog__posts > .demo-nav > .demo-nav__button:first-child .mdl-button {
+.demo-blog article[type~=BlogPosting] > .demo-nav > .demo-nav__button:first-child .mdl-button {
   margin-right: 16px;
 }
-.demo-blog .demo-blog__posts > .demo-nav > .demo-nav__button:last-child .mdl-button {
+.demo-blog article[type~=BlogPosting] > .demo-nav > .demo-nav__button:last-child .mdl-button {
   margin-left: 16px;
 }
 .demo-blog .mdl-card > a {
@@ -196,7 +196,7 @@ body::before {
 .demo-blog--blogpost .custom-header {
   background-color: transparent;
 }
-.demo-blog--blogpost .demo-blog__posts > .mdl-card .mdl-card__media {
+.demo-blog--blogpost article[type~=BlogPosting] > .mdl-card .mdl-card__media {
   background-image: url('../images/road_big.jpg');
   height: 280px;
 }
