@@ -25,7 +25,11 @@ body .demo-blog {
   flex-shrink: 0;
 }
 
-.demo-blog.mdl-layout .mdl-layout__content {
+main {
+  @extend .mdl-layout__content;
+}
+
+/* mb removed: .demo-blog.mdl-layout*/ .mdl-layout__content {
   padding-top: 230px;
   position: relative;
   -webkit-overflow-scrolling: touch;
