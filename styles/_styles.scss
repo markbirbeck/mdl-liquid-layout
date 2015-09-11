@@ -27,6 +27,11 @@ body::before {
   flex-shrink: 0;
 
   @extend .mdl-grid;
+
+  & > div {
+    @extend .mdl-card, .mdl-shadow--4dp;
+    @extend .mdl-cell, .mdl-cell--12-col;
+  }
 }
 
 .demo-blog .mdl-card {
@@ -198,7 +203,7 @@ body::before {
 .demo-blog--blogpost .custom-header {
   background-color: transparent;
 }
-.demo-blog--blogpost article[type~=BlogPosting] > .mdl-card .mdl-card__media {
+.demo-blog--blogpost article[type~=BlogPosting] .mdl-card__media {
   background-image: url('../images/road_big.jpg');
   height: 280px;
 }
