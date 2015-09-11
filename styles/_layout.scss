@@ -4,6 +4,10 @@
  *  https://github.com/google/material-design-lite/tree/master/src/layout
  */
 
+body {
+  @extend .mdl-layout__container;
+}
+
 body > div {
   @extend .mdl-layout, .mdl-js-layout;
 }
