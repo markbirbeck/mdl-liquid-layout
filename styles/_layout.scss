@@ -10,6 +10,8 @@ body {
 
 body > div {
   @extend .mdl-layout, .mdl-js-layout;
+
+  @extend .has-drawer, .is-upgraded;
 }
 
 main {
