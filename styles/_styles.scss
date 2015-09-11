@@ -25,6 +25,10 @@ body .demo-blog {
   flex-shrink: 0;
 }
 
+body > div {
+  @extend .mdl-layout, .mdl-js-layout;
+}
+
 main {
   @extend .mdl-layout__content;
 }
