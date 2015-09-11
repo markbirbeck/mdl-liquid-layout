@@ -1,3 +1,5 @@
+@import "layout";
+
 body::before {
     background-image: url('../images/bg.jpg');
     background-size: cover;
@@ -25,19 +27,6 @@ body .demo-blog {
   flex-shrink: 0;
 }
 
-body > div {
-  @extend .mdl-layout, .mdl-js-layout;
-}
-
-main {
-  @extend .mdl-layout__content;
-}
-
-/* mb removed: .demo-blog.mdl-layout*/ .mdl-layout__content {
-  padding-top: 230px;
-  position: relative;
-  -webkit-overflow-scrolling: touch;
-}
 .demo-blog .mdl-card {
   display: flex;
   flex-direction: column;
