@@ -49,6 +49,7 @@ body::before {
        */
 
       & > div {
+        @extend .mdl-color-text--grey-700;
         @extend .mdl-card__supporting-text;
       }
     }
