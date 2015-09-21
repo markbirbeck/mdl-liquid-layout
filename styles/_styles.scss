@@ -54,6 +54,10 @@ body::before {
     }
   }
 
+  & > nav {
+    @extend .mdl-color-text--grey-50;
+    @extend .mdl-cell, .mdl-cell--12-col;
+  }
 }
 .demo-blog header .meta {
   @extend .mdl-color-text--grey-700;
