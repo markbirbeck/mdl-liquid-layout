@@ -271,6 +271,12 @@ body::before {
   left: 16px;
   color: white;
   z-index: 9999;
+
+  & a {
+    @extend .mdl-button, .mdl-js-button;
+    @extend .mdl-js-ripple-effect;
+    @extend .mdl-button--icon;
+  }
 }
 .demo-blog .section-spacer {
   flex-grow: 1;
