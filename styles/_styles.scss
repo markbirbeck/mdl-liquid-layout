@@ -58,6 +58,10 @@ body::before {
   & > nav {
     @extend .mdl-color-text--grey-50;
     @extend .mdl-cell, .mdl-cell--12-col;
+
+    & > a {
+      @extend .demo-nav__button;
+    }
   }
 }
 .demo-blog header .meta {
