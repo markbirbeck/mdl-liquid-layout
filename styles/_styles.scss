@@ -56,6 +56,9 @@ body::before {
 
 }
 .demo-blog header .meta {
+  @extend .mdl-color-text--grey-700;
+  @extend .mdl-card__supporting-text;
+
   box-sizing: border-box;
   padding: 16px;
   display: flex;
