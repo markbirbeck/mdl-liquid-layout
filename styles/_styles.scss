@@ -32,8 +32,10 @@ body::before {
     @extend .mdl-card, .mdl-shadow--4dp;
     @extend .mdl-cell, .mdl-cell--12-col;
 
-    & header h3 {
-     @extend .mdl-card__media, .mdl-color-text--grey-50;
+    & header {
+      & h3 {
+        @extend .mdl-card__media, .mdl-color-text--grey-50;
+      }
     }
   }
 
