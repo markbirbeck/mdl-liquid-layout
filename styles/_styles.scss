@@ -61,6 +61,12 @@ body::before {
 
     & > a {
       @extend .demo-nav__button;
+
+      & > button {
+        @extend .mdl-button, .mdl-js-button, .mdl-button--icon;
+        @extend .mdl-js-ripple-effect;
+        @extend .mdl-color--white, .mdl-color-text--grey-900;
+      }
     }
   }
 }
