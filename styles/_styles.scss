@@ -29,6 +29,11 @@ body::before {
 
   @extend .mdl-grid;
 
+  & .mdl-card__media {
+    background-image: url('../images/road_big.jpg');
+    height: 280px;
+  }
+
   & > div {
     @extend .mdl-card, .mdl-shadow--4dp;
     @extend .mdl-cell, .mdl-cell--12-col;
