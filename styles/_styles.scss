@@ -59,6 +59,20 @@ body::before {
     @extend .mdl-color-text--grey-50;
     @extend .mdl-cell, .mdl-cell--12-col;
 
+    & > .demo-back {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      color: white;
+      z-index: 9999;
+
+      & a {
+        @extend .mdl-button, .mdl-js-button;
+        @extend .mdl-js-ripple-effect;
+        @extend .mdl-button--icon;
+      }
+    }
+
     & > a {
       @extend .demo-nav__button;
 
@@ -263,20 +277,6 @@ body::before {
 .demo-blog--blogpost .comments .comment > .comment__answers {
   padding-top: 32px;
   padding-left: 48px;
-}
-
-.demo-blog--blogpost .demo-back {
-  position: absolute;
-  top: 16px;
-  left: 16px;
-  color: white;
-  z-index: 9999;
-
-  & a {
-    @extend .mdl-button, .mdl-js-button;
-    @extend .mdl-js-ripple-effect;
-    @extend .mdl-button--icon;
-  }
 }
 .demo-blog .section-spacer {
   flex-grow: 1;
