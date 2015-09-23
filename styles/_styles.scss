@@ -1,5 +1,6 @@
 @import "layout";
 @import "card";
+@import "footer";
 @import "grid";
 
 body::before {
@@ -323,13 +324,4 @@ body::before {
 .social-btn__share {
   color: rgba(0, 0, 0, 0.54);
   background: transparent;
-}
-
-.demo-blog .mdl-mini-footer {
-  margin-top: 80px;
-  height: 120px;
-  padding: 40px;
-  align-items: center;
-  background-color: white;
-  box-sizing: border-box;
 }
