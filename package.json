@@ -13,5 +13,8 @@
     "material design"
   ],
   "author": "Mark Birbeck <mark.birbeck@gmail.com> (http://markbirbeck.com/)",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "peerDependencies": {
+    "partials-collection": "0.2.x"
+  }
 }
