@@ -1,6 +1,6 @@
 {
   "name": "layout-liquid-mdl",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "The Material Design Lite layout files for Liquid.",
   "main": "index.js",
   "scripts": {
