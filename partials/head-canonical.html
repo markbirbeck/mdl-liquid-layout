@@ -1,0 +1,6 @@
+<!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+<!--
+<link rel="canonical" href="http://www.example.com/">
+-->
+<link rel="canonical" href="{{ url | replace:'index.html','' | prepend: baseurl | prepend: siteurl }}">
+<link rel="alternate" type="application/rss+xml" title="{{ title }}" href="{{ "/feed.xml" | prepend: baseurl | prepend: siteurl }}" />
