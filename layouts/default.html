@@ -22,20 +22,13 @@
 
   {% include head.html %}
 
-  <body class="demo-blog">
+  <body>
     {% include body-start.html %}
 
-    <div class="demo-blog--blogpost">
-      <main>
-        {{ content }}
+    <main>
+      {{ content }}
+    </main>
 
-        {% include footer.html %}
-      </main>
-
-      <div class="mdl-layout__obfuscator"></div>
-    </div>
-    <a href="https://github.com/google/material-design-lite/blob/master/templates/blog/" target="_blank" id="view-source">View Source</a>
-    <script src="material.js"></script>
-
+    <div class="mdl-layout__obfuscator"></div>
   </body>
 </html>
