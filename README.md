@@ -102,14 +102,14 @@ Adds settings for Internet Explorer Legacy Document mode.
 
 Adds the viewport settings.
 
-### homescreen-android.html
+### head-homescreen-android.html
 
 Add tags for setting a homescreen link on Android.
 
-### homescreen-ios.html
+### head-homescreen-ios.html
 
 Add tags for setting a homescreen link on iOS.
 
-### homescreen-win8.html
+### head-homescreen-win8.html
 
 Add tags for setting the icon on Windows 8.
