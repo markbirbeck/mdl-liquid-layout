@@ -10,7 +10,8 @@
     "layout",
     "liquid",
     "mdl",
-    "material design"
+    "material design",
+    "material design lite"
   ],
   "author": "Mark Birbeck <mark.birbeck@gmail.com> (http://markbirbeck.com/)",
   "license": "Apache-2.0"
