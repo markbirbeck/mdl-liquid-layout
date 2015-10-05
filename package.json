@@ -1,6 +1,6 @@
 {
   "name": "mdl-liquid-layout",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A set of layout files that implement the layout part of Google's Material Design Lite templates.",
   "main": "index.js",
   "scripts": {
