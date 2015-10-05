@@ -4,7 +4,7 @@ A set of layout files that implement the layout part of Google's [Material Desig
 
 ## Dependencies
 
-This layout requires a CSS file called `main.css`.
+The default behaviour for this layout is to use a CSS file called `main.css`, although this can be overridden as described below.
 
 ## Overrides
 
