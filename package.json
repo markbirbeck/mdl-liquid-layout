@@ -14,5 +14,8 @@
     "material design lite"
   ],
   "author": "Mark Birbeck <mark.birbeck@gmail.com> (http://markbirbeck.com/)",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "repository": "markbirbeck/mdl-liquid-layout",
+  "bugs": "https://github.com/markbirbeck/mdl-liquid-layout/issues",
+  "homepage": "https://github.com/markbirbeck/mdl-liquid-layout"
 }
