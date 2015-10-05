@@ -1,4 +1,4 @@
-# layout-liquid-mdl
+# mdl-liquid-layout
 
 A set of layout files that implement the layout part of Google's [Material Design Lite](http://www.getmdl.io/) templates.
 
