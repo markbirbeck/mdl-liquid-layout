@@ -1,0 +1,15 @@
+<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+{% if page.robots %}
+  <meta name="robots" content="{{ page.robots }}">
+{% endif %}
+
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+{% if page.next.url %}
+  <link rel="next" href="{{ page.next.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" title="{{ page.next.title }}">
+{% endif %}
+
+{% if page.previous.url %}
+  <link rel="prev" href="{{ page.previous.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" title="{{ page.previous.title }}">
+{% endif %}
